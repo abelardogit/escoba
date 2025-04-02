@@ -2,7 +2,7 @@ package entidades;
 
 public class Carta {
     private int valor;
-    private String palo;
+    private String palo; // mejor int
 
     public Carta(int valor, String palo) {
         this.valor = valor;

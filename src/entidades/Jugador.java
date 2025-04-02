@@ -18,7 +18,7 @@ public class Jugador {
 
     public void sumarPuntos(int puntos) {
         this.puntos += puntos;
-        if (this.puntos > 21) {
+        if (this.puntos > 21) { // ¿?
             this.puntos = 21;
         }
     }
